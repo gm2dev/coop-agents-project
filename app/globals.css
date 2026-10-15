@@ -1,0 +1,15 @@
+/* Estilos base. Color, tipografía, espaciado, radios y foco: SOLO variables de tokens.css
+ * (copia de design-system/tokens.json del repo de diseño). */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-200);
+  line-height: var(--font-line-height-base);
+  color: var(--color-text-default);
+  background: var(--color-surface-subtle);
+}
+main { max-width: var(--size-content-max); margin: 0 auto; padding: var(--space-500) var(--space-400) var(--space-700); }
+a { color: var(--color-text-link); }
+:focus-visible { outline: var(--focus-width) solid var(--color-focus-ring); outline-offset: var(--focus-offset); }

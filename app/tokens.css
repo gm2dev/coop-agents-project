@@ -1,0 +1,122 @@
+/*
+ * ARCHIVO GENERADO — no editar a mano.
+ * Espejo de design-system/tokens.json: cada variable sigue la ruta exacta del token
+ * (color.feedback.danger.text → --color-feedback-danger-text).
+ * Regenerar desde la raíz del repo: node scripts/tokens-to-css.mjs
+ * Verificar que coincide:           node scripts/tokens-to-css.mjs --check
+ * breakpoint.* se exporta como referencia: las media queries no aceptan variables.
+ */
+:root {
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f5f6f8;
+  --color-neutral-100: #eceef2;
+  --color-neutral-500: #6b7280;
+  --color-neutral-600: #4b5563;
+  --color-neutral-900: #1a1d23;
+
+  --color-teal-50: #e6f4f2;
+  --color-teal-600: #0e6b63;
+  --color-teal-700: #0a524c;
+
+  --color-blue-50: #eff6ff;
+  --color-blue-700: #1d4ed8;
+  --color-blue-800: #1e40af;
+
+  --color-red-50: #fef3f2;
+  --color-red-600: #b42318;
+  --color-red-700: #912018;
+
+  --color-green-50: #ecfdf3;
+  --color-green-700: #05603a;
+
+  --color-amber-50: #fffaeb;
+  --color-amber-800: #7a2e0e;
+
+  --color-text-default: #1a1d23; /* color.neutral.900 */
+  --color-text-muted: #4b5563; /* color.neutral.600 */
+  --color-text-on-action: #ffffff; /* color.neutral.0 */
+  --color-text-link: #0e6b63; /* color.teal.600 */
+  --color-text-selected: #0a524c; /* color.teal.700 */
+
+  --color-surface-default: #ffffff; /* color.neutral.0 */
+  --color-surface-subtle: #f5f6f8; /* color.neutral.50 */
+  --color-surface-selected: #e6f4f2; /* color.teal.50 */
+  --color-surface-disabled: #eceef2; /* color.neutral.100 */
+
+  --color-border-default: #eceef2; /* color.neutral.100 */
+  --color-border-strong: #6b7280; /* color.neutral.500 */
+  --color-border-selected: #0e6b63; /* color.teal.600 */
+
+  --color-action-primary: #0e6b63; /* color.teal.600 */
+  --color-action-primary-hover: #0a524c; /* color.teal.700 */
+  --color-action-danger: #b42318; /* color.red.600 */
+
+  --color-feedback-danger-text: #912018; /* color.red.700 */
+  --color-feedback-danger-bg: #fef3f2; /* color.red.50 */
+  --color-feedback-danger-border: #b42318; /* color.red.600 */
+  --color-feedback-success-text: #05603a; /* color.green.700 */
+  --color-feedback-success-bg: #ecfdf3; /* color.green.50 */
+  --color-feedback-success-border: #05603a; /* color.green.700 */
+  --color-feedback-warning-text: #7a2e0e; /* color.amber.800 */
+  --color-feedback-warning-bg: #fffaeb; /* color.amber.50 */
+  --color-feedback-warning-border: #7a2e0e; /* color.amber.800 */
+  --color-feedback-info-text: #1e40af; /* color.blue.800 */
+  --color-feedback-info-bg: #eff6ff; /* color.blue.50 */
+  --color-feedback-info-border: #1e40af; /* color.blue.800 */
+
+  --color-focus-ring: #1d4ed8; /* color.blue.700 */
+
+  --font-family-base: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --font-size-100: 0.875rem;
+  --font-size-200: 1rem;
+  --font-size-300: 1.125rem;
+  --font-size-400: 1.375rem;
+  --font-size-500: 1.75rem;
+
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-line-height-tight: 1.25;
+  --font-line-height-base: 1.5;
+
+  --space-100: 4px;
+
+  --space-200: 8px;
+
+  --space-300: 12px;
+
+  --space-400: 16px;
+
+  --space-500: 24px;
+
+  --space-600: 32px;
+
+  --space-700: 48px;
+
+  --space-050: 2px;
+
+  --radius-sm: 4px;
+
+  --radius-md: 8px;
+
+  --radius-lg: 12px;
+
+  --radius-pill: 999px;
+
+  --size-target-min: 24px;
+  --size-target-comfortable: 44px;
+
+  --size-content-max: 40rem;
+
+  --focus-width: 3px;
+
+  --focus-offset: 2px;
+
+  --focus-style: solid;
+
+  --breakpoint-md: 40rem;
+
+  --breakpoint-lg: 64rem;
+}
